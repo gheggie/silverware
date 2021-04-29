@@ -1,0 +1,10 @@
+/* Image Component CSS Definitions:
+===================================================================================================================== */
+
+.imagecomponent div.image img {
+  display: block;
+}
+
+.imagecomponent div.caption {
+  margin: 0;
+}

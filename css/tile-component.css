@@ -1,0 +1,123 @@
+/* Tile Component CSS Definitions:
+===================================================================================================================== */
+
+.tilecomponent ul.items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.tilecomponent ul.items > li.item {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  min-height: 1px;
+  overflow: hidden;
+  position: relative;  
+}
+
+.tilecomponent ul.items > li.item > a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+
+.tilecomponent ul.items > li.item > a > div.image {
+  -webkit-transition: transform 0.4s ease 0s;
+  -moz-transition: transform 0.4s ease 0s;
+  transition: transform 0.4s ease 0s;
+}
+
+.tilecomponent ul.items > li.item > a > div.image > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.tilecomponent ul.items > li.item > a > section.content {
+  width: 100%;
+  top: auto;
+  bottom: 0;
+  color: #fff;
+  padding: 1.5rem;
+  position: absolute;
+  background-color: #139fda;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: transform 0.4s ease 0s;
+  -moz-transition: transform 0.4s ease 0s;
+  transition: transform 0.4s ease 0s;
+}
+
+.tilecomponent ul.items > li.item > a > section.content > header > * {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.tilecomponent ul.items > li.item > a > section.content > div.caption {
+  display: none;
+}
+
+.tilecomponent ul.items > li.item > a > section.content > div.caption > p {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.tilecomponent ul.items > li.item > a:hover > div.image {
+  -webkit-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+
+.tilecomponent ul.items > li.item > a:hover > section.content {
+  -webkit-transform: translateY(1px);
+  -moz-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+/* Media Queries:
+===================================================================================================================== */
+
+/* Larger than mobile */
+
+@media (min-width: 400px) {
+  
+  .tilecomponent ul.items > li.item {
+    width: 50%;
+    float: left;
+  }
+  
+}
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+  
+  .tilecomponent ul.items > li.item > a > section.content > div.caption {
+    display: block;
+  }
+  
+}
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+  
+  .tilecomponent ul.items > li.item {
+    width: 25%;
+    float: left;
+  }
+  
+}
+
+/* Larger than desktop HD */
+
+@media (min-width: 1200px) {
+  
+  .tilecomponent ul.items > li.item > a > section.content > header > * {
+    font-size: 1.8rem;
+  }
+  
+}

@@ -1,0 +1,126 @@
+---
+Name: silverware
+---
+LeftAndMain:
+  extra_requirements_css:
+    - silverware/css/cms/cms.css
+    - silverware/thirdparty/faloading/faloading.min.css
+    - silverware/thirdparty/font-awesome/css/font-awesome.min.css
+  extra_requirements_javascript:
+    - silverware/javascript/cms/cms.js
+    - silverware/javascript/cms/LinkFormExtension.js
+    - silverware/javascript/cms/ListSourceExtension.js
+    - silverware/thirdparty/faloading/faloading.min.js
+
+SilverWare:
+  default_fixtures:
+    - silverware/fixtures/defaults.yml
+
+SilverWareBlueprint:
+  creators:
+    SiteTree: SiteTreeCreator
+    SiteConfig: SiteConfigCreator
+  default_parents:
+    SilverWareTemplate: `SilverWareTemplateFolder::find()->ID`
+    SilverWareLayout: `SilverWareLayoutFolder::find()->ID`
+    SilverWarePanel: `SilverWarePanelFolder::find()->ID`
+  auto_site_config: true
+  auto_sort: true
+
+SilverWareCreator:
+  handlers:
+    - StyleHandler
+    - ConfigHandler
+
+SilverWareFolder:
+  default_folders:
+    - SilverWareTemplateFolder
+    - SilverWareLayoutFolder
+    - SilverWarePanelFolder
+
+Page:
+  extensions:
+    - SilverWarePageExtension
+    - SilverWareAreaExtension
+    - SilverWareMetaExtension
+    - SilverWareGridExtension
+    - ListItemExtension
+    - MetaDataExtension
+
+ContentController:
+  extensions:
+    - SilverWareControllerExtension
+    - SilverWareBreadcrumbsExtension
+    - SilverWareFontExtension
+
+SiteConfig:
+  extensions:
+    - SilverWareConfigExtension
+    - SilverWareAppConfig
+    - SilverWarePageTypeConfig
+    - SilverWareTemplateConfig
+    - SilverWareStyleConfig
+    - SilverWareFontConfig
+    - SilverWareIconConfig
+    - SilverWareAdvancedConfig
+
+ModelAdmin:
+  extensions:
+    - SilverWareModelAdminExtension
+
+SilverWareControllerExtension:
+  use_custom_jquery: true
+
+SilverWareTemplate:
+  extensions:
+    - StyleBackgroundExtension
+    - StyleSpacingExtension
+
+SilverWareSection:
+  extensions:
+    - StyleTextExtension
+    - StyleBackgroundExtension
+    - StyleSpacingExtension
+    - StyleBorderExtension
+    - StyleShadowExtension
+
+GridComponent:
+  extensions:
+    - StyleTextExtension
+    - StyleBackgroundExtension
+    - StyleSpacingExtension
+    - StyleBorderExtension
+
+StyleRule:
+  extensions:
+    - StyleTextExtension
+    - StyleBackgroundExtension
+    - StyleSpacingExtension
+    - StyleBorderExtension
+    - StyleShadowExtension
+
+SilverWareComponent:
+  extensions:
+    - SilverWareRequirementsExtension
+    - StyleDisplayExtension
+
+Image:
+  extensions:
+    - AutoRotateExtension
+    - CropPriorityExtension
+
+FieldList:
+  extensions:
+    - FieldListMessageExtension
+
+SilverWareMetaExtension:
+  asset_folder: Images
+
+SilverWareIconConfig:
+  asset_folder: Icons
+
+StyleBackgroundExtension:
+  asset_folder: Style/Background
+
+FormSpamProtectionExtension:
+  default_spam_protector: SilverWareSpamProtector

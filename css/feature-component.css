@@ -1,0 +1,22 @@
+/* Feature Component CSS Definitions:
+===================================================================================================================== */
+
+.featurecomponent article > div.image img {
+  display: block;
+}
+
+.featurecomponent article > section.content > header > * {
+  margin-bottom: 1rem;
+}
+
+.featurecomponent article > section.content > header a {
+  color: inherit;
+}
+
+.featurecomponent article > section.content > div {
+  margin: 1rem 0;
+}
+
+.featurecomponent article > section.content > footer > a.button {
+  margin-top: 0;
+}

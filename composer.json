@@ -1,0 +1,33 @@
+{
+    "name": "praxisnetau/silverware",
+    "description": "SilverWare for SilverStripe.",
+    "type": "silverstripe-module",
+    "homepage": "https://bitbucket.org/praxisnetau/silverware",
+    "keywords": ["silverstripe", "silverware", "module"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Colin Tucker",
+            "role": "Developer",
+            "email": "colin@praxis.net.au",
+            "homepage": "http://www.praxis.net.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "silverstripe/cms": "~3.4",
+        "silverstripe/framework": "~3.4",
+        "silverstripe/spamprotection": "~2.0",
+        "silverstripe/timepickerfield": "~1.0",
+        "sheadawson/silverstripe-zenvalidator": "~0.5",
+        "tractorcow/silverstripe-colorpicker": "~3.0",
+        "silverstripe-australia/gridfieldextensions": "~1.4",
+        "unclecheese/betterbuttons": "~1.3",
+        "unclecheese/display-logic": "~1.4",
+        "unclecheese/dropzone": "~1.4"
+    },
+    "extra": {
+        "installer-name": "silverware"
+    },
+    "target-dir": "silverware"
+}

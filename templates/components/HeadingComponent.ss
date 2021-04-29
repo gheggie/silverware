@@ -1,0 +1,1 @@
+<{$HeadingTag}>$FontIconTag<span>$Component.Title</span></{$HeadingTag}>

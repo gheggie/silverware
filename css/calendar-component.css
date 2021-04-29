@@ -1,0 +1,75 @@
+/* Calendar Component CSS Definitions:
+===================================================================================================================== */
+
+.calendarcomponent table {
+  margin: 0;
+}
+
+.calendarcomponent table td,
+.calendarcomponent table th {
+  padding: 0; 
+}
+
+.calendarcomponent table thead td,
+.calendarcomponent table tr.even,
+.calendarcomponent table tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+.calendarcomponent hr {
+  margin: 0;
+}
+
+.calendarcomponent .fc th {
+  font-weight: 500;
+}
+
+.calendarcomponent .fc-view > table {
+  background-color: #fff;
+}
+
+.calendarcomponent .fc-view > table table {
+  border-left: 0 hidden rgba(0, 0, 0, 0);
+  border-right: 0 hidden rgba(0, 0, 0, 0);
+  border-bottom: 0 hidden rgba(0, 0, 0, 0);
+}
+
+.calendarcomponent .fc-toolbar h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.calendarcomponent .fc-event {
+  border-radius: 0;
+  border: 1px solid #139fda;
+  background-color: #139fda;
+}
+
+.calendarcomponent .fc-event,
+.calendarcomponent .fc-event:hover,
+.calendarcomponent .ui-widget .fc-event {
+  color: #fff;
+}
+
+.calendarcomponent .fc-state-default {
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  background-image: none;
+}
+
+.calendarcomponent .fc-state-default.fc-corner-left,
+.calendarcomponent .fc-state-default.fc-corner-right {
+  border-radius: 0;
+}
+
+.calendarcomponent .fc .fc-button-group > * {
+  margin: 0;
+}
+
+/* Selector Queries (allows layout to change based on container width):
+===================================================================================================================== */
+
+.calendarcomponent .fc.wide .fc-toolbar h2 {
+  font-size: 2.4rem;
+}

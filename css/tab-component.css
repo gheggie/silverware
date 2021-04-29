@@ -1,0 +1,77 @@
+/* Tab Component CSS Definitions:
+===================================================================================================================== */
+
+/* Tab Wrapper:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs {
+  position: relative;
+}
+
+/* Tab List:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-nav {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  display: none;
+}
+
+/* Tab Element:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-nav .r-tabs-tab {
+  margin: 0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+
+/* Tab Anchor:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-nav .r-tabs-anchor {
+  outline: 0;
+  display: inline-block;
+}
+
+/* Tab Panel:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-panel {
+  display: none;
+}
+
+/* Accordion Title:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-accordion-title {
+  display: block;
+}
+
+/* Accordion Anchor:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+  outline: 0;
+  display: block;
+}
+
+/* Active Tab Panel:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-panel.r-tabs-state-active {
+  display: block;
+}
+
+/* Selector Queries (allows layout to change based on container width):
+===================================================================================================================== */
+
+.tabcomponent .r-tabs.wide .r-tabs-nav {
+  display: block;
+}
+
+.tabcomponent .r-tabs.wide .r-tabs-accordion-title {
+  display: none;
+}

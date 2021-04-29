@@ -1,0 +1,60 @@
+/* Tab Component Theme CSS Definitions:
+===================================================================================================================== */
+
+/* Tab Wrapper:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs {
+  border-width: 0;
+}
+
+/* Tab Anchor:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-nav .r-tabs-anchor {
+  padding: 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.tabcomponent .r-tabs .r-tabs-nav .r-tabs-anchor > span {
+  font-weight: bold;
+}
+
+/* Disabled Tab State:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-nav .r-tabs-state-disabled {
+  opacity: 0.5;
+}
+
+/* Tab Panel:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-panel {
+  padding: 2rem;
+}
+
+.tabcomponent .r-tabs .r-tabs-panel > :last-child {
+  margin-bottom: 0;
+}
+
+/* Accordion Anchor:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+  padding: 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.tabcomponent .r-tabs .r-tabs-accordion-title .r-tabs-anchor > span {
+  font-weight: bold;
+}
+
+/* Disabled Accordion State:
+===================================================================================================================== */
+
+.tabcomponent .r-tabs .r-tabs-accordion-title.r-tabs-state-disabled {
+  opacity: 0.5;
+}

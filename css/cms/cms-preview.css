@@ -1,0 +1,71 @@
+/* SilverWare CMS Preview CSS Definitions:
+===================================================================================================================== */
+
+/* Import Fonts:
+===================================================================================================================== */
+
+@import url(//fonts.googleapis.com/css?family=Roboto:400);
+
+/* Base Styles
+===================================================================================================================== */
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+/* Preview Styles:
+===================================================================================================================== */
+
+.cms-preview {
+  overflow: hidden;
+}
+
+.cms-preview-wrapper {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.cms-preview-wrapper > header {
+  min-height: 51px;
+  padding-left: 15px;
+  white-space: nowrap;
+  background-color: #f0f2f4;
+}
+
+.cms-preview-wrapper > header > h1 {
+  margin: 0;
+  color: #555;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 51px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.cms-preview-wrapper > header > h1 > i {
+  color: #4f5861;
+  opacity: 0.75;
+}
+
+.cms-preview-wrapper > header > h1 > span.class {
+  color: #999;
+}
+
+.cms-preview-wrapper > div.component {
+  padding: 15px;
+  border-top: 1px solid #c4c6c8;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 51px;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}

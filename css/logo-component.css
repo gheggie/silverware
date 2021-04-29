@@ -1,0 +1,81 @@
+/* Logo Component CSS Definitions:
+===================================================================================================================== */
+
+.logocomponent.typography a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.logocomponent.typography a:hover {
+  text-decoration: none;
+}
+
+.logocomponent div.wrapper {
+  font-size: 0;
+}
+
+.logocomponent div.logo img.svg {
+  display: none;
+}
+
+.logocomponent div.logo img.png {
+  display: inline-block;
+}
+
+.logocomponent div.logo img.png-hd {
+  display: none;
+}
+
+.svgasimg .logocomponent div.logo img.svg {
+  display: inline-block;
+}
+
+.svgasimg .logocomponent div.logo img.png {
+  display: none;
+}
+
+.logocomponent div.logo img.png.no-svg,
+.logocomponent div.logo img.svg.no-png {
+  display: inline-block;
+}
+
+.logocomponent div.text {
+  color: inherit;
+}
+
+.logocomponent div.text h1,
+.logocomponent div.text h2,
+.logocomponent div.text h3,
+.logocomponent div.text h4,
+.logocomponent div.text h5,
+.logocomponent div.text h6 {
+  margin: 0;
+}
+
+@media (min-width: 750px) {
+  
+  .logocomponent div.text {
+    white-space: nowrap;
+  }
+  
+  .logocomponent div.wrapper.wide-columns > div {
+    display: inline-block;
+  }
+  
+  .logocomponent div.wrapper.vertical-baseline > div {
+    vertical-align: baseline;
+  }
+  
+  .logocomponent div.wrapper.vertical-top > div {
+    vertical-align: top;
+  }
+  
+  .logocomponent div.wrapper.vertical-middle > div {
+    vertical-align: middle;
+  }
+  
+  .logocomponent div.wrapper.vertical-bottom > div {
+    vertical-align: bottom;
+  }
+  
+}

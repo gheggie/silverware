@@ -1,0 +1,68 @@
+SilverWareGrid:
+  devices:
+    any:
+      name: Any
+      width: 0
+    mobile:
+      name: Mobile
+      width: 400
+    phablet:
+      name: Phablet
+      width: 550
+    tablet:
+      name: Tablet
+      width: 750
+    desktop:
+      name: Desktop
+      width: 1000
+    desktop-hd:
+      name: Desktop HD
+      width: 1200
+  device_groups:
+    grid-inactive:
+      - mobile
+      - phablet
+    grid-active:
+      - tablet
+      - desktop
+      - desktop-hd
+
+GridRow:
+  column_sizing:
+    auto: Auto
+    manual: Manual
+
+GridColumn:
+  column_widths:
+    auto: Auto
+    one: One
+    two: Two
+    three: Three
+    four: Four
+    five: Five
+    six: Six
+    seven: Seven
+    eight: Eight
+    nine: Nine
+    ten: Ten
+    eleven: Eleven
+    twelve: Twelve
+    one-third: One Third
+    two-thirds: Two Thirds
+    one-half: One Half
+  column_offsets:
+    none: None
+    one: One
+    two: Two
+    three: Three
+    four: Four
+    five: Five
+    six: Six
+    seven: Seven
+    eight: Eight
+    nine: Nine
+    ten: Ten
+    eleven: Eleven
+    one-third: One Third
+    two-thirds: Two Thirds
+    one-half: One Half

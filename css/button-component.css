@@ -1,0 +1,41 @@
+/* Button Component CSS Definitions:
+===================================================================================================================== */
+
+.buttoncomponent ul.buttons {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: outside none none;
+}
+
+.buttoncomponent ul.buttons > li {
+  display: block;
+}
+
+.buttoncomponent ul.buttons > li > a {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Media Queries:
+===================================================================================================================== */
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+  
+  .buttoncomponent ul.buttons > li {
+    display: inline-block;
+  }
+  
+  .buttoncomponent ul.buttons > li > a {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .buttoncomponent ul.buttons > li:last-child > a {
+    margin-right: 0;
+  }
+  
+}

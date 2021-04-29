@@ -1,0 +1,1 @@
+<div id="$CalendarID" data-squery="min-width:750px=wide"></div>

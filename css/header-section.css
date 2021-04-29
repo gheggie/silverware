@@ -1,0 +1,9 @@
+/* Header Section CSS Definitions:
+===================================================================================================================== */
+
+.headersection.sticky {
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+}

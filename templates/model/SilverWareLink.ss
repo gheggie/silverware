@@ -1,0 +1,1 @@
+<a class="$HTMLClass" title="$Name" href="$Link"<% if $OpenInNewTab %> target="_blank"<% end_if %>>$FontIconTag<span>$Name</span></a>

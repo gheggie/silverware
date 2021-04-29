@@ -1,0 +1,86 @@
+/* List Component CSS Definitions:
+===================================================================================================================== */
+
+.listcomponent div.items > article {
+  clear: both;
+  margin-bottom: 3rem;
+}
+
+.listcomponent div.items > article > div.image {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.listcomponent div.items > article > div.image:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.listcomponent div.items > article > div.image a,
+.listcomponent div.items > article > div.image img {
+  display: block;
+}
+
+.listcomponent div.items > article > section.content > header > * {
+  margin-bottom: 1rem;
+}
+
+.listcomponent div.items > article > section.content > header a {
+  color: inherit;
+}
+
+.listcomponent div.items > article > section.content > div {
+  margin: 1rem 0;
+}
+
+.listcomponent div.items > article > section.content > div.meta {
+  color: #666;
+}
+
+.listcomponent div.items > article > section.content > div.meta a {
+  color: inherit;
+}
+
+.listcomponent div.items > article > section.content > div.summary > p {
+  margin: 0;
+}
+
+.listcomponent div.items > article > section.content > footer {
+  margin-top: 2rem;
+}
+
+.listcomponent div.items > article > section.content > footer > a.button {
+  margin-top: 0;
+}
+
+/* Media Queries:
+===================================================================================================================== */
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+  
+  .listcomponent div.items.image-align-left > article.has-image > div.image,
+  .listcomponent div.items.image-align-stagger > article.has-image:nth-child(odd) > div.image {
+    float: left;
+    padding-top: 0.5rem;
+  }
+  
+  .listcomponent div.items.image-align-left > article.has-image > section.content,
+  .listcomponent div.items.image-align-stagger > article.has-image:nth-child(odd) > section.content {
+    padding-left: 1.5rem;
+  }
+  
+  .listcomponent div.items.image-align-right > article.has-image > div.image,
+  .listcomponent div.items.image-align-stagger > article.has-image:nth-child(even) > div.image {
+    float: right;
+    padding-top: 0.5rem;
+  }
+  
+  .listcomponent div.items.image-align-right > article.has-image > section.content,
+  .listcomponent div.items.image-align-stagger > article.has-image:nth-child(even) > section.content {
+    padding-right: 1.5rem;
+  }
+  
+}

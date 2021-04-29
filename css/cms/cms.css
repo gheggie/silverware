@@ -1,0 +1,229 @@
+/* SilverWare CMS CSS Definitions:
+===================================================================================================================== */
+
+/* Base Styles
+===================================================================================================================== */
+
+.hidden {
+  display: none;
+}
+
+/* Badge Styles:
+===================================================================================================================== */
+
+span.badge-number {
+  color: #fff;
+  padding: 0 4px;
+  margin-left: 2px;
+  font-size: 11px;
+  display: inline-block;
+  text-align: center;
+  background-color: #fd0304;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  line-height: 16px;
+  min-width: 8px;
+  height: 16px;
+}
+
+.cms-tree.jstree .status-number-badge > a .jstree-pageicon::before {
+  color: #fff;
+  background: #fd0304 none;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 9px;
+  text-align: center;
+  border-radius: 9px;
+  padding: 2px;
+  top: 6px;
+  right: -2px;
+  min-width: 9px;
+  position: absolute;
+}
+
+.cms-tree.jstree .status-number-badge > a > span.text > span.status-number-badge-val {
+  display: none !important;
+}
+
+/* Object Styles:
+===================================================================================================================== */
+
+ul.object-list li {
+  float: none;
+  width: auto;
+}
+
+span.object-class-label span.page-icon {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+span.object-class-label span.title {
+  font-weight: 500;
+}
+
+span.object-class-label span.class {
+  color: #777;
+}
+
+/* Font Icon Styles:
+===================================================================================================================== */
+
+th.col-FontIconTagCMS {
+  width: 50px;
+}
+
+td.col-FontIconTagCMS > i {
+  vertical-align: top;
+}
+
+span.na {
+  font-size: 10px;
+  line-height: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.field .fieldgroup-field > i.fa {
+  line-height: 32px;
+}
+
+/* Thumbnail Styles:
+===================================================================================================================== */
+
+th.col-CMSThumbnail,
+td.col-CMSThumbnail {
+  width: 60px;
+  max-width: 60px;
+}
+
+td.col-CMSThumbnail > img {
+  display: block;
+}
+
+/* Tree Styles:
+===================================================================================================================== */
+
+li.heading-h1 > a span.jstree-pageicon {
+  background-image: url(/silverware/images/icons/headings/h1.png);
+}
+
+li.heading-h2 > a span.jstree-pageicon {
+  background-image: url(/silverware/images/icons/headings/h2.png);
+}
+
+li.heading-h3 > a span.jstree-pageicon {
+  background-image: url(/silverware/images/icons/headings/h3.png);
+}
+
+li.heading-h4 > a span.jstree-pageicon {
+  background-image: url(/silverware/images/icons/headings/h4.png);
+}
+
+li.heading-h5 > a span.jstree-pageicon {
+  background-image: url(/silverware/images/icons/headings/h5.png);
+}
+
+li.heading-h6 > a span.jstree-pageicon {
+  background-image: url(/silverware/images/icons/headings/h6.png);
+}
+
+li.component-disabled > a > span.text > span.jstree-pageicon::after {
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8Y\
+  QUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuOWwzfk4AAADjSURBVDhPpZChDsIwEIYv2fRoEXuQmXkkyS\
+  x7AxIETzEk4JAoCAkkI2AxQ6BIw2qxC9ghKlDkuCao5kyD+PKnX+7PtQVE/AtW+sBKH1jpAyt9YKUPrPSBlT6w0gdWuqwBYAvQJzaE+mXferbgsqLho5T\
+  6mefmNRx+HoOBOQihrWcLLkvaeM8yc+31sEpTPCUJXtLUWM8WXBZ0bUpUSmFd19g0DbZti9azBZcpbdrF8Xvf7WIpJZaUm07nbT1bcJnQW+dhqM9CmJuU\
+  nyqKzCwItPVswaWgzx7T8Ig2EsqmPRcA8AXP77yIsdid9QAAAABJRU5ErkJggg==');
+  position: absolute;
+}
+
+li.class-SilverWareFolder.disabled,
+li.class-SilverWareFolder li.disabled {
+  display: none !important;
+}
+
+/* Form Styles:
+===================================================================================================================== */
+
+.field .fieldgroup-field > input.checkbox {
+  float: left;
+  margin-top: 10px;
+}
+
+.field .fieldgroup-field > label.checkboxfield-small {
+  float: left;
+  margin-left: 2px;
+}
+
+.ss-toggle .ui-accordion-content .last-visible-field {
+  border-bottom: 0;
+  margin-bottom: 0 !important;
+}
+
+.ss-toggle .ui-accordion-content .last-visible-field + .field.display-logic {
+  margin-top: 0;
+  padding-top: 12px;
+  border-top: 1px solid #d4d6d8;
+}
+
+.ss-toggle.has-grid-field .ui-accordion-content {
+  background: #D4D6D8 none;
+}
+
+/* Token Mapping Styles:
+===================================================================================================================== */
+
+.field.token-mapping-legend {
+  padding: 15px;
+  border: 1px solid #CCCCCC;
+  background-color: #EFF2F4;
+}
+
+.field.token-mapping-legend > h2 {
+  margin-top: 0;
+}
+
+.field.token-mapping-legend > dl.token-mappings dt {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.field.token-mapping-legend > dl.token-mappings dd {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.field.token-mapping-legend > dl.token-mappings dd:last-child {
+  margin-bottom: 0;
+}
+
+/* Help Styles:
+===================================================================================================================== */
+
+form div.help {
+  color: #4F5861;
+  margin: 0 0 20px;
+  padding: 10px 5px;
+  border: 1px solid #68B8DF;
+  background-color: #E8F8FF;
+}
+
+/* Font-Awesome Loading Styles:
+===================================================================================================================== */
+
+.jq-fa-loading .fa-loading-wrapper .fa-loading-modal {
+  background: rgba(230, 234, 237, 0.5) none;
+}
+
+.jq-fa-loading .fa-loading-wrapper .fa-loading-content {
+  box-shadow: none;
+  background: transparent none;
+}
+
+.jq-fa-loading .fa-loading-wrapper .fa-loading-content .fa-loading-icon {
+  color: #444;
+}

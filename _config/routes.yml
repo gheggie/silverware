@@ -1,0 +1,17 @@
+---
+Name: silverwareroutes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+Director:
+  rules:
+    'CalendarController//$Action/$ID/$OtherID': 'CalendarController'
+
+---
+Name: silverwareadminroutes
+After: '#adminroutes'
+---
+Director:
+  rules:
+    'SilverWareAdminController//$Action/$ID/$OtherID': 'SilverWareAdminController'

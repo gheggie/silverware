@@ -1,0 +1,14 @@
+ImageTools:
+  resize_methods:
+    crop-width: Crop Width
+    crop-height: Crop Height
+    fill: Fill
+    fill-max: Fill Max
+    fill-priority: Fill Priority
+    fit: Fit
+    fit-max: Fit Max
+    pad: Pad
+    scale-width: Scale Width
+    scale-height: Scale Height
+    scale-max-width: Scale Max Width
+    scale-max-height: Scale Max Height

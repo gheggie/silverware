@@ -1,0 +1,1 @@
+<{$HeadingTag}><span>$Title</span></{$HeadingTag}>

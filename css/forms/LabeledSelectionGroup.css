@@ -1,0 +1,27 @@
+/* Labeled Selection Group Field CSS Definitions:
+===================================================================================================================== */
+
+.labeledselectiongroup {
+  clear: none;
+}
+
+.labeledselectiongroup > .middleColumn {
+  padding-top: 3px;
+}
+
+.labeledselectiongroup > li {
+  clear: none;
+}
+
+.labeledselectiongroup > li input.selector {
+  width: 13px;
+  margin-left: 0;
+}
+
+.labeledselectiongroup > li label {
+  margin-left: 3px;
+}
+
+.labeledselectiongroup > li.selected > div.selectiongroup_item {
+  margin-left: 20px;
+}

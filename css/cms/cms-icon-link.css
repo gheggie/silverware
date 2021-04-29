@@ -1,0 +1,6 @@
+/* SilverWare CMS Icon Link CSS Definitions:
+===================================================================================================================== */
+
+div.field.font-icon-color {
+  display: none; /* hide regular font icon color fields */
+}
