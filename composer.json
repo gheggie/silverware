@@ -2,7 +2,7 @@
     "name": "praxisnetau/silverware",
     "description": "SilverWare for SilverStripe.",
     "type": "silverstripe-module",
-    "homepage": "https://bitbucket.org/praxisnetau/silverware",
+    "homepage": "https://github.com/praxisnetau/silverware",
     "keywords": ["silverstripe", "silverware", "module"],
     "license": "BSD-3-Clause",
     "authors": [
